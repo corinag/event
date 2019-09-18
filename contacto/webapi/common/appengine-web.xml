@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+ <application>event-178416</application>
+ <version>1</version>
+<runtime>java8</runtime>
+ <threadsafe>true</threadsafe>
+ <precompilation-enabled>false</precompilation-enabled>
+<!-- Configure java.util.logging -->
+  
+ <system-properties>
+    
+  <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+  
+ </system-properties>
+<!-- GoogleAppEngine Java 7 Compatible with Java 8 Runtime -->
+<!-- <url-stream-handler>urlfetch</url-stream-handler> -->
+</appengine-web-app>
